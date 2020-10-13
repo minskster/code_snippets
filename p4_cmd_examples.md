@@ -11,7 +11,7 @@ call p4 -c %workspace_name% submit -d "Submit comment"
 ```
 ## [Get the file without workspace creating](https://www.perforce.com/manuals/v15.1/cmdref/p4_print.html)
 ```
-call p4 print -q -o common.ps1 //depot_name/stream_name/path_to_file
+call p4 print -q -o file_name.ps1 //depot_name/stream_name/path_to_file
 ```
 ## [Edit the stream name in the workspace](https://www.perforce.com/manuals/v15.1/cmdref/p4_client.html)
 ```
