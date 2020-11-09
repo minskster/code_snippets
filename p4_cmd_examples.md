@@ -25,7 +25,7 @@ call p4 client -o %workspace_name%
 ```
 call p4 stream -o %stream_name%
 ```
-## [Display the last 10 changes]
+## [Display the last 10 changes](https://www.perforce.com/manuals/v15.1/cmdref/p4_changes.html)
 ```
 p4  changes -L -s submitted -m 10  //depot/stream_path...
 ```
