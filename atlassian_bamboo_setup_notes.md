@@ -11,3 +11,9 @@ mysql> GRANT ALL PRIVILEGES ON bamboo.* TO 'bamboouser'@'localhost' IDENTIFIED B
 mysql> FLUSH PRIVILEGES;
 mysql> QUIT
 ```
+
+# [Log mail sending](https://confluence.atlassian.com/bamkb/troubleshooting-notifications-email-im-216957451.html)
+1. Open <bamboo-install>/bin/setenv.sh and set JVM_SUPPORT_RECOMMENDED_ARGS=-Dmail.debug=true
+2. Add via GUI or <bamboo-install>/atlassian-bamboo/WEB-INF/classes/log4j.properties
+log4j.logger.com.sun.mail=DEBUG
+log4j.logger.com.atlassian.bamboo.mail=DEBUG
